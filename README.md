@@ -20,5 +20,4 @@ TODO
 - add translation 
 - autoinstall
 
-- 
 ![Screenshot from 2025-01-06 16-15-09](https://github.com/user-attachments/assets/b02c6895-97e1-467f-800f-12605d2eae0b)
