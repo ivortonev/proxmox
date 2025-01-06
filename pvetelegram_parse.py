@@ -56,6 +56,4 @@ resultado = processar_upid(upid)
 
 notify_string = "Host: " + resultado["PVE_HOST"] + "\\nNome da VM: " + resultado["QVNAME"] + "\\nUsuario: " + resultado["USUARIO"] + "\\nTipo de operacao: " + resultado["TIPO"]
 
-print (notify_string)
-
 subprocess.run(["/opt/pvetelegram/bin/pvetelegram_sendmsg.sh", notify_string])
