@@ -3,6 +3,9 @@
 Telegram notification
 
 v 0.0.0.1-alpha
+- create a telegram bot
+- create a telegram group/channel
+- add the bot to the group/channel
 - install syslog-ng
 - save pve.conf to /etc/syslog-ng/conf.d/
 - create /opt/pvetelegram/bin/
