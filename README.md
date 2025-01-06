@@ -16,6 +16,6 @@ v 0.0.0.1-alpha
 
 TODO
 - clean code
-- conditional message for different tasks
-- translation
+- conditional message for different tasks types
+- add translation 
 - autoinstall
