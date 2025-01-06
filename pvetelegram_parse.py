@@ -54,8 +54,6 @@ upid = str(args.valor)
 
 resultado = processar_upid(upid)
 
-#print("Host:",resultado["PVE_HOST"],"\\nNome da VM:",resultado["QVNAME"],"\\nUsuario:",resultado["USUARIO"],"\\nTipo de operacao:",resultado["TIPO"])
-
 notify_string = "Host: " + resultado["PVE_HOST"] + "\\nNome da VM: " + resultado["QVNAME"] + "\\nUsuario: " + resultado["USUARIO"] + "\\nTipo de operacao: " + resultado["TIPO"]
 
 print (notify_string)
